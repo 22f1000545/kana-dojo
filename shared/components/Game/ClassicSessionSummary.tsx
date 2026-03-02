@@ -237,7 +237,7 @@ export default function ClassicSessionSummary({
             className='group flex h-14 flex-1 cursor-pointer items-center justify-center gap-3 rounded-xl bg-(--secondary-color) px-4 text-lg font-bold text-(--background-color) lowercase outline-hidden transition-all duration-150 active:scale-95 active:brightness-95 sm:px-10 sm:text-xl md:flex-none'
           >
             <CircleArrowLeft
-              className='h-5 w-5 group-hover:animate-pulse sm:h-6 sm:w-6'
+              className='h-5 w-5 group-hover:animate-none sm:h-6 sm:w-6'
               strokeWidth={2.5}
             />
             <span className='leading-none'>menu</span>
@@ -250,7 +250,7 @@ export default function ClassicSessionSummary({
             className='group flex h-14 flex-1 cursor-pointer items-center justify-center gap-3 rounded-xl bg-(--main-color) px-4 text-lg font-bold text-(--background-color) lowercase outline-hidden transition-all duration-150 active:scale-95 active:brightness-95 sm:px-12 sm:text-xl md:flex-none'
           >
             <RotateCcw
-              className='h-5 w-5 group-hover:animate-pulse sm:h-6 sm:w-6'
+              className='h-5 w-5 group-hover:animate-none sm:h-6 sm:w-6'
               strokeWidth={2.5}
             />
             <span className='leading-none sm:hidden'>new</span>

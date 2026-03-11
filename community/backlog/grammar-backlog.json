@@ -296,8 +296,10 @@
   {
     "id": 50,
     "text": "\"〜わけではない\" means \"not necessarily\" or \"it's not that\".",
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": true,
+    "completedBy": "Kubudak90",
+    "completedPR": 8032
   },
   {
     "id": 51,
